@@ -16,9 +16,7 @@ ActiveRecord::Schema.define(:version => 20130618205237) do
   create_table "ideas", :force => true do |t|
     t.string   "name"
     t.string   "description"
-    t.string   "text"
     t.string   "picture"
-    t.string   "string"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end

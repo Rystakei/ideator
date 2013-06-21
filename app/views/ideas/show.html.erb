@@ -10,20 +10,12 @@
   <%= @idea.description %>
 </p>
 
-<p>
-  <b>Text:</b>
-  <%= @idea.text %>
-</p>
 
 <p>
   <b>Picture:</b>
   <%= image_tag(@idea.picture_url) if @idea.picture.present? %>
 </p>
 
-<p>
-  <b>String:</b>
-  <%= @idea.string %>
-</p>
 
 
 <%= link_to 'Edit', edit_idea_path(@idea) %> |

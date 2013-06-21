@@ -4,9 +4,7 @@
   <tr>
     <th>Name</th>
     <th>Description</th>
-    <th>Text</th>
     <th>Picture</th>
-    <th>String</th>
     <th></th>
     <th></th>
     <th></th>
@@ -16,9 +14,7 @@
   <tr>
     <td><%= idea.name %></td>
     <td><%= idea.description %></td>
-    <td><%= idea.text %></td>
     <td><%= idea.picture %></td>
-    <td><%= idea.string %></td>
     <td><%= link_to 'Show', idea %></td>
     <td><%= link_to 'Edit', edit_idea_path(idea) %></td>
     <td><%= link_to 'Destroy', idea, method: :delete, data: { confirm: 'Are you sure?' } %></td>
